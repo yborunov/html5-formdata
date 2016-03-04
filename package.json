@@ -1,0 +1,30 @@
+{
+  "name": "html5-formdata",
+  "version": "1.0.0",
+  "description": "HTML5 FormData Object polyfill for browsers that doesn't support it",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yborunov/html5-formdata.git"
+  },
+  "keywords": [
+    "FormData",
+    "polyfill",
+    "html5"
+  ],
+  "author": "George Borunov <george@borunov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yborunov/html5-formdata/issues"
+  },
+  "homepage": "https://github.com/yborunov/html5-formdata#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.6.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
